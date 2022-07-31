@@ -4,7 +4,9 @@ It is recommended to use a python virtual environment such as conda or virtualen
 for more information about virtualenv (http://timsherratt.org/digital-heritage-handbook/docs/python-pip-virtualenv/)
 
 First we are going to activate the virtual environment (if you have any doubts, look at the link shown above)
-MacOx or Linux
+MacOx or 
+
+Linux
 ```bash
 source YOUR-VIRTUAL-ENV/bin/activate
 ```
@@ -34,3 +36,12 @@ Example:
 ```bash
 python main.py --sum-value -5 --list 1 -2 -3 7 10
 ```
+
+## How to run pytest
+
+you just need to run the below command 
+
+```bash
+python -m pytest -v
+```
+
